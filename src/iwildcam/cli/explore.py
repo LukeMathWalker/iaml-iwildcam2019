@@ -17,4 +17,4 @@ def explore(set: str, n: int) -> None:
 
 
 if __name__ == "__main__":
-   explore()
+    explore()

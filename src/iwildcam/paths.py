@@ -1,10 +1,8 @@
-from typing import NamedTuple
 from pathlib import Path
 from .config import Config
 
 
-class RawData(NamedTuple):
-
+class RawData:
     train_folder: Path = Config.data_folder / "train"
     train_labels: Path = Config.data_folder / "train.csv"
     test_folder: Path = Config.data_folder / "test"

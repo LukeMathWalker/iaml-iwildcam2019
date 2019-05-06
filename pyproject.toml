@@ -14,6 +14,9 @@ numpy = "^1.16"
 [tool.poetry.dev-dependencies]
 pytest = "^3.0"
 
+[tool.poetry.scripts]
+explore = 'iwildcam.cli.explore:explore'
+
 [build-system]
 requires = ["poetry>=0.12"]
 build-backend = "poetry.masonry.api"
