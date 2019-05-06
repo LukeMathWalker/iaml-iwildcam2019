@@ -1,5 +1,7 @@
 import os
+from typing import NamedTuple
+from pathlib import Path
 
 
-class Config:
-    data_folder = os.getenv("DATA_FOLDER", "/home/luca/Data")
+class Config(NamedTuple):
+    data_folder: Path = Path(os.getenv("DATA_FOLDER", "/home/luca/Data"))
