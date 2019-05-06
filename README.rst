@@ -20,3 +20,7 @@ source env/bin/activate
 # Install packages from the Poetry lock file
 poetry install
 ```
+
+### Env variables
+
+`DATA_FOLDER`: it should point at the folder containing the data downloaded from Kaggle (already unzipped).
